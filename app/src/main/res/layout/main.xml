@@ -8,13 +8,13 @@
         android:layout_width="@dimen/progress_wheel_size"
         android:layout_height="@dimen/progress_wheel_size"
         android:layout_gravity="center"
-        app:matProg_barColor="@color/colorAccent"
+        app:matProg_barColor="@color/colorProgressWheel"
         app:matProg_progressIndeterminate="true" />
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <ViewFlipper
             android:id="@+id/viewFlipperTop"
